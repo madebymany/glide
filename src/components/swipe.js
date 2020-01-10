@@ -32,6 +32,7 @@ export default function (Glide, Components, Events) {
      */
     mount () {
       this.bindSwipeStart()
+      this.bindSwipeMove()
     },
 
     /**
